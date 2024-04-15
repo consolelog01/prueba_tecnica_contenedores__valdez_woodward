@@ -1,0 +1,285 @@
+table td,
+thead {
+    text-align: center !important;
+}
+
+.circle-information {
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones-flotantes button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Formulario */
+
+.campoObligatorio {
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(239, 140, 140);
+    font-weight: bold;
+}
+
+.campo-invalido {
+    background-color: rgb(239, 140, 140) !important;
+}
+
+form label {
+    margin-bottom: 0px;
+}
+
+/* Modal */
+.modal-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.modal-title {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    color: rgb(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.contenedor-linea-separadora {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.linea-separadora {
+    width: 25%;
+    border-bottom: 2px solid var(--blue);
+}
+
+.modalRegistroPanel,
+.bootbox-confirm {
+    color: #000 !important;
+}
+
+.item-menu-activo * {
+    color: #fff !important;
+}
+
+/* Notificaciones */
+.modal-notificacion {
+    font-size: 30px;
+    font-style: italic;
+    color: #000;
+    background-color: #23121269;
+}
+
+.contenedor-img-notificacion img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.texto-notificacion {
+    font-size: 20px !important;
+}
+
+.spinner-proceso-carga {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background: rgb(155 202 245 / 40%);
+    left: 0;
+    right: 0;
+    z-index: 1200;
+}
+
+.spinner-proceso-carga img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    animation: rotar-spinner;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+/* Margins, tops, bottoms, lefts, rights */
+.top-45 {
+    top: 45px !important;
+}
+
+.top-65 {
+    top: 65px !important;
+}
+
+/* --Botón para mostrar la contraseña */
+
+.d-flex-center {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+button[data-ocultar-password] {
+    background-color: var(--blue) !important;
+    border: none !important;
+}
+
+.btn-ct-inp {
+    width: 25px !important;
+    height: 25px !important;
+    position: absolute;
+    top: 31px;
+    right: 10%;
+}
+
+.ico-ojo {
+    min-width: 21px;
+    min-height: 13px;
+    border-radius: 50%;
+}
+
+.esclerotica {
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.iris {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000000;
+}
+
+.pupila {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #322e32;
+}
+
+/* Estilos notificaciones */
+
+.contenedor-notificacion {
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-notificacion i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.contenedor-notificacion>.notificacion {
+    border-top-right-radius: 0% !important;
+    border-top-left-radius: 0% !important;
+    border-bottom-right-radius: 0% !important;
+}
+
+.contenedor-notificacion>.icono-notificacion {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    transition: 0.5s ease 0.2s;
+}
+
+.contenedor-notificacion:hover {
+    width: 100%;
+}
+
+.contenedor-notificacion:hover>.notificacion {
+    width: 100%;
+    min-height: 120px;
+    max-height: 120px;
+    overflow-y: auto;
+    font-size: 14px;
+    padding: 15px;
+    z-index: 100;
+    opacity: 1;
+    margin-right: -30px;
+    background-color: var(--light);
+    transition: width 1s, opacity 0.5s, font-size 0.2s ease 0.2s;
+}
+
+.notificacion {
+    width: 0%;
+    height: 0%;
+    opacity: 0;
+    font-size: 0px;
+    border-radius: 35px;
+    color: #000 !important;
+}
+
+.notificacion i {
+    color: var(--blue);
+    font-size: 14px;
+}
+
+.notificacion p {
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.colorFondoWarning {
+    background-color: rgba(255, 238, 138, 0.588) !important;
+}
+
+.colorFondoError {
+    background-color: rgba(255, 43, 43, 0.588) !important;
+}
+
+.colorFondoSuccess {
+    background-color: rgba(129, 194, 160, 0.588) !important;
+}
+
+/* Colores de fondo */
+.bg-primary-f {
+    color: var(--blue) !important;
+}
+
+.sepracion-dia-laboral {
+    background-color: #1f3269;
+    height: 2px;
+}
+
+.botones-fixed {
+    position: fixed;
+    bottom: 24px;
+    right: 32px;
+}
+
+@keyframes rotar-spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Imagen de perfíl */
+.img-profile {
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.contenedorNumeroContenedor {
+    font-size: 25px;
+    font-weight: bold;
+    color: #434343;
+}

@@ -1,0 +1,20 @@
+.bootbox .btn-danger:hover {
+    border-radius: .35rem !important;
+}
+
+.menuOpcionHover {
+    background-color: #2a2d35;
+    color: #fff;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        width: 25rem !important;
+    }
+}
+
+.menuOpcionHover .nav-link,
+.menuOpcionHover .nav-link i {
+    color: #fff !important;
+}

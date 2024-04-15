@@ -1,0 +1,59 @@
+/* Botbox */
+.bootbox-close-button.close {
+	display: none;
+}
+
+.bootbox-body {
+	margin-top: 65px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Colores de título */
+.tituloPrincipal {
+	color: var(--colorPrimarioPrincipal);
+}
+
+.contenedorIconoNotificacion {
+	display: flex;
+	justify-content: center;
+}
+
+.icononotificacion {
+	width: 60px !important;
+	height: 60px !important;
+	position: absolute;
+	top: 23px;
+}
+
+.bootbox-accept,
+.bootbox-cancel {
+	width: 50px;
+	height: 44px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff !important;
+	border-radius: 10px;
+	background-color: var(--blue) !important;
+	border-color: transparent !important;
+}
+
+.bootbox-accept:hover {
+	background-color: var(--blue) !important;
+}
+
+.bootbox-cancel {
+	background-color: var(--orange) !important;
+	border-radius: 10px;
+	border-color: transparent !important;
+}
+
+.bootbox-cancel:hover {
+	background-color: var(--orange) !important;
+	border-radius: 10px;
+	border-color: transparent !important;
+}
+
+.box-confirmacion-sucess {
+	background: rgb(91 114 101 / 70%);
+}
